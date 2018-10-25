@@ -1,0 +1,40 @@
+.logo {
+  background: url('logo.png') repeat-none;
+  /* display: inline-block; */
+  float: right;
+  width: 8em;
+  height: 8em;
+  background-repeat: none;
+  padding-right: 3em;
+}
+.home-image {
+  width: 30em;
+  height: 30em;
+}
+.logo-background {
+  /* background:  rgba(200,200,200, 0.7); */
+  background: white;
+}
+body {
+  background-image:  url('dew.jpg');
+  background-repeat: no-repeat;
+  background-position: center-top;
+  width: 40em; 
+  height: 100%; 
+}
+
+.title {
+  color: #147E7E;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #A7D54A;
+}
+.text-box {
+  padding: 3em;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 10%;
+  color: white;
+  height: 100vh;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(221, 198, 198);
+}
+
