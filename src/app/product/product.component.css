@@ -1,13 +1,17 @@
-.title {
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+.wrapper {
+  width: 1000px;
   text-align: center;
 }
 
-.container {
-  width: 1440px;
-}
-.wrapper {
+/* .title {
   text-align: center;
-}
+} */
 
 .ul-wrapper {
   text-align: center;
@@ -20,10 +24,24 @@ ul {
   text-decoration: none;
 }
 
+ul li {
+  padding: 5px;
+}
+
 .plant-div {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px black solid;
+  text-align: center;
   width: 400px;
-  height: 150px;
+  height: 200px;
   padding: 25px;
   display: flex;
   flex-direction: column;
+}
+
+.buton {
+  text-align: center;
+  width: 80px;
+  height: 25px;
 }
