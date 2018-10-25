@@ -1,0 +1,7 @@
+<form (ngSubmit)="loginAdmin()" [formGroup]="createLogin">
+  <input [(ngModel)]="loginAdminData.email" type="email" placeholder="Email" formControlName="email" name="email">
+  <input [(ngModel)]="loginAdminData.password" type="password" placeholder="Password" formControlName="password" name="password">
+  <!-- <input type="email" placeholder="Email" formControlName="email" name="email">
+  <input type="password" placeholder="Password" formControlName="password" name="password"> -->
+  <button type="submit">Login</button>
+</form>

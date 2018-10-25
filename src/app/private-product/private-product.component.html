@@ -7,6 +7,7 @@
         <div class="plant-div">
           <p>{{ prod.product_name }}</p>
           <p>{{ prod.product_description }}</p>
+          <button (click)="handleDelete(prod.id)">Delete</button>
         </div>
       </li>
     </ul>
