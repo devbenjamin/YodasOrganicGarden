@@ -21,6 +21,10 @@ export class PrivateProductComponent implements OnInit {
 
   handleDelete = number => {
     this.data.deleteProd(number).subscribe();
+    this.delete();
+  };
+
+  delete = () => {
     this.data.getProduct().subscribe(data => {
       this.product = data;
     });
