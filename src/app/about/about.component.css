@@ -1,0 +1,22 @@
+h1 {
+    color: #557F00;
+    font-family: Nunito;
+   
+}
+
+.email {
+    padding-right: 10px;
+    color: #557F00;
+    font-family: Nunito;
+}
+
+.name {
+    padding-right: 10px;
+    color: #557F00;
+    font-family: Nunito;
+}
+
+.form-control {
+    text-align: center;
+}
+
